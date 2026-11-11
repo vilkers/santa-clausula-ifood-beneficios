@@ -90,7 +90,7 @@
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7l9 6 9-6M3 7v10a2 2 0 002 2h14a2 2 0 002-2V7M3 7l9-4 9 4"/></svg>
       <span>Cartinhas</span>
     </button>
-    <button class="icon-btn" id="toggleTypewriterBtn" title="Entrar no modo máquina" aria-pressed="false">
+    <button class="icon-btn" id="toggleTypewriterBtn" title="Entrar no modo máquina" aria-pressed="false" hidden>
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V4h10v3M8 13h8M8 16h8"/></svg>
       <span>Modo máquina</span>
     </button>
@@ -158,16 +158,7 @@
 
   </div>
 
-  <!-- Real typewriter image (shown only in machine mode) -->
-  <div class="typewriter-machine" id="typewriterMachine" aria-hidden="true">
-    <div class="tw-img-wrap">
-      <img src="assets/typewriter.png" alt="" class="tw-img" draggable="false"/>
-      <!-- hammer/strike flash inside the type basket -->
-      <div class="tw-strike"></div>
-      <!-- keyboard key glow when typing -->
-      <div class="tw-keyglow"></div>
-    </div>
-  </div>
+  <!-- Machine mode disabled for now -->
 </main>
 
 <!-- ============ FIXED FOOTER (always visible) ============ -->
