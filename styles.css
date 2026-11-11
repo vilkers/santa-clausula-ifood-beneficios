@@ -90,6 +90,7 @@ body::before{
   color: var(--marsala);
   border-color: var(--acqua);
 }
+.icon-btn[hidden]{ display: none !important; }
 
 /* ============ STAGE ============ */
 .stage{
